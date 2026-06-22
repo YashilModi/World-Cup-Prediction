@@ -1,7 +1,7 @@
 # Predicting the 2026 FIFA World Cup Winner
 
 A statistical simulation that forecasts the winner of the 2026 FIFA World Cup
-from a *artially played tournament(only 28 of the 72 group games are
+from a partially played tournament(only 28 of the 72 group games are
 complete) by modelling individual matches, simulating the games that haven't
 happened yet, and playing the bracket forward to a champion thousands of times.
 
