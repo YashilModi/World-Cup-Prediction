@@ -41,21 +41,21 @@ group-stage matches (with expected goals), match events, player squads with
 market values, referees, venues, and tournament stages.
 
 ## Project structure
-├── data/                       # the 8 CSV tables
-├── R/
-│   ├── 00_setup.R              # load all data
-│   ├── 01_Bootstrap.R          # Module 1.1 - home advantage CI
-│   ├── 02_Match_Engine.R       # Poisson GLM + simulate_match()
-│   ├── 03_GroupStage.R         # simulate_group()
-│   ├── 04_Knockout_Bracket.R   # knockout_match() + bracket
-│   ├── 05_Monte_Carlo.R        # simulate_tournament() + 10,000 runs
-│   ├── 06_ANOVA.R              # Module 1.3 - market value ANOVA
-│   ├── 07_Logistic_GLM.R       # Module 2.3 - did a player score?
-│   └── 08_Bayesian.R           # Module 3.1 - sponsor decision (EVPI)
-├── figures/                    # saved plots
-├── report.Rmd                  # full write-up
-├── run_all.R                   # runs the whole project end-to-end
-└── World Cup.Rproj
+data/                       # the 8 CSV tables
+   R/
+      00_setup.R              # load all data
+      01_Bootstrap.R          # Module 1.1 - home advantage CI
+      02_Match_Engine.R       # Poisson GLM + simulate_match()
+      03_GroupStage.R         # simulate_group()
+      04_Knockout_Bracket.R   # knockout_match() + bracket
+      05_Monte_Carlo.R        # simulate_tournament() + 10,000 runs
+      06_ANOVA.R              # Module 1.3 - market value ANOVA
+      07_Logistic_GLM.R       # Module 2.3 - did a player score?
+      08_Bayesian.R           # Module 3.1 - sponsor decision (EVPI)
+   figures/                    # saved plots
+   report.Rmd                  # full write-up
+   run_all.R                   # runs the whole project end-to-end
+   World Cup.Rproj
 ## How to run
 
 Requirements: R (4.x) and RStudio. The project uses base R only; the
